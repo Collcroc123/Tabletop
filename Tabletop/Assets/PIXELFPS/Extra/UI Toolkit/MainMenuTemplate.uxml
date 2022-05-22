@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Style.uss?fileID=7433441132597879392&amp;guid=fa117bcddf7505848bd041240284bb26&amp;type=3#Style" />
+    <ui:VisualElement name="MenuButtons" class="SlideIn SlideOut" style="transition-property: position;">
+        <ui:Label text="PIXELFPS" display-tooltip-when-elided="true" class="Text" style="position: relative; left: 10%; top: 0; font-size: 50%;" />
+        <ui:Button text="Singleplayer" display-tooltip-when-elided="true" name="Singleplayer" class="button-style" style="background-color: rgb(108, 178, 60);" />
+        <ui:Button text="Multiplayer" display-tooltip-when-elided="true" name="Multiplayer" class="button-style" style="background-color: rgb(156, 67, 171); display: flex;" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" name="Settings" class="button-style" style="background-color: rgb(66, 135, 178);" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="Quit" class="button-style" style="background-color: rgb(173, 68, 58);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="SingleMenu" class="MenuPanel FadeIn FadeOut" style="justify-content: flex-start; align-items: flex-start; -unity-text-align: upper-left; transition-duration: 0.25s; background-color: rgba(0, 0, 0, 0.78); top: 476px; left: 521px;">
+        <ui:Label text="Singleplayer:" display-tooltip-when-elided="true" name="NameLabel" class="Text" style="width: 100%; height: 12%; font-size: 25%;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="MultiMenu" class="MenuPanel FadeIn FadeOut" style="justify-content: flex-start; align-items: flex-start; -unity-text-align: upper-left; transition-duration: 0.25s; background-color: rgba(0, 0, 0, 0.78); top: 476px; left: 521px;">
+        <ui:Scroller high-value="0" direction="Vertical" value="0" low-value="10" style="height: 650px; width: 25px; position: absolute; right: 0; top: 50px; display: none; visibility: visible;" />
+        <ui:Label text="Lobby Name:" display-tooltip-when-elided="true" name="NameLabel" class="Text" style="width: 100%; height: 12%; font-size: 25%;" />
+        <ui:TextField picking-mode="Ignore" value="Lobby" text="Lobby" style="height: 12%; left: auto; width: 80%; color: rgb(0, 0, 0); font-size: 45%; top: auto; -unity-text-align: upper-left; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0; -unity-font-style: normal;" />
+        <ui:Label text="Max Players:" display-tooltip-when-elided="true" name="PlayerLabel" class="Text" style="width: 100%; height: 12%; font-size: 25%;" />
+        <ui:SliderInt picking-mode="Ignore" label="64" value="4" high-value="64" focusable="true" show-input-field="false" inverted="false" tabindex="0" style="position: relative; left: 0; height: 5%; width: 100%; -unity-text-align: middle-center; top: 0; font-size: 30px; color: rgb(255, 255, 255); flex-wrap: nowrap; flex-direction: row-reverse; justify-content: flex-start;" />
+        <ui:Label text="Time Limit:" display-tooltip-when-elided="true" name="TimeLabel" class="Text" style="width: 100%; height: 12%; font-size: 25%;" />
+        <ui:SliderInt picking-mode="Ignore" label="60" value="3600" high-value="3600" focusable="true" show-input-field="false" inverted="false" tabindex="0" low-value="100" direction="Horizontal" style="position: relative; left: 0; height: 5%; width: 100%; -unity-text-align: middle-center; top: 0; font-size: 30px; color: rgb(255, 255, 255); flex-direction: row-reverse; white-space: normal; -unity-text-outline-width: 0;" />
+        <ui:Button text="Local Host" display-tooltip-when-elided="true" name="LocalButton" class="button-style" style="position: absolute; left: 5%; bottom: 5%; top: auto; border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; width: 45%; background-color: rgb(178, 171, 60); font-size: 25%;" />
+        <ui:Button text="Steam Host" display-tooltip-when-elided="true" name="SteamButton" class="button-style" style="position: absolute; left: auto; bottom: 5%; top: auto; border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; width: 45%; right: 5%; background-color: rgb(178, 125, 60); font-size: 25%;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="SettingsMenu" class="MenuPanel FadeIn FadeOut" style="justify-content: flex-start; align-items: flex-start; -unity-text-align: upper-left; transition-duration: 0.25s; background-color: rgba(0, 0, 0, 0.78); top: 476px; left: 521px;">
+        <ui:Label text="Settings:" display-tooltip-when-elided="true" name="NameLabel" class="Text" style="width: 100%; height: 12%; font-size: 25%;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="QuitMenu" class="MenuPanel FadeIn FadeOut" style="justify-content: flex-start; align-items: flex-start; -unity-text-align: upper-left; transition-duration: 0.25s; background-color: rgba(0, 0, 0, 0.78); top: 476px; left: 521px;">
+        <ui:Label text="Quit Game?" display-tooltip-when-elided="true" name="Quit" class="Text" style="width: 100%; height: 12%; font-size: 50%; -unity-text-align: upper-center;" />
+        <ui:Button text="No" display-tooltip-when-elided="true" name="LocalButton" class="button-style" style="position: absolute; left: 5%; bottom: 5%; top: auto; border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; width: 45%; background-color: rgb(99, 178, 60); font-size: 25%;" />
+        <ui:Button text="Yes" display-tooltip-when-elided="true" name="SteamButton" class="button-style" style="position: absolute; left: auto; bottom: 5%; top: auto; border-top-left-radius: 25px; border-top-right-radius: 25px; border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; width: 45%; right: 5%; background-color: rgb(178, 69, 60); font-size: 25%;" />
+    </ui:VisualElement>
+</ui:UXML>
