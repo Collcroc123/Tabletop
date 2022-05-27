@@ -41,16 +41,12 @@ namespace Mirror
         [SerializeField]
         [Tooltip("Prefab to use for the Room Player")]
         public NetworkRoomPlayer roomPlayerPrefab;
-
-        /// <summary>
-        /// The scene to use for the room. This is similar to the offlineScene of the NetworkManager.
-        /// </summary>
+        
+        // The scene to use for the room. This is similar to the offlineScene of the NetworkManager.
         [Scene]
         public string RoomScene;
-
-        /// <summary>
-        /// The scene to use for the playing the game from the room. This is similar to the onlineScene of the NetworkManager.
-        /// </summary>
+        
+        // The scene to use for the playing the game from the room. This is similar to the onlineScene of the NetworkManager.
         [Scene]
         public string GameplayScene;
 
