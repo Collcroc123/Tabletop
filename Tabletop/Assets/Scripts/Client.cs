@@ -8,7 +8,7 @@ public class Client : NetworkBehaviour
 
     public void DrawCards(int num)
     {
-        connector.Draw(num);
+        //connector.Draw(num);
     }
     
     public void EndTurn()
@@ -18,8 +18,8 @@ public class Client : NetworkBehaviour
 
     public void PlayCard(GameObject card)
     {
-        UnoCard cardData = card.GetComponent<CardInfo>().cardData;
-        connector.Play(cardData);
+        //UnoCard cardData = card.GetComponent<CardInfo>().cardData;
+        //connector.Play(cardData);
         Destroy(card);
         
         // Client tells server the card

@@ -14,6 +14,7 @@ public class Connector : NetworkBehaviour
     [SyncVar] public int maxPlayers = 8;          // Limits number of players connected
     public int clientID;                          // Tracks player's order of joining
     
+    /*
     [Command]
     public void NextTurn()
     {
@@ -33,13 +34,13 @@ public class Connector : NetworkBehaviour
     }
     
     [TargetRpc]
-    public void NewCard(NetworkConnection target, UnoCard unoCard)
+    public void NewCard(NetworkConnection target, Card unoCard)
     {
         if (cardPrefab != null) // Why would CardPrefab ever be null?
         {
             lastCardLoc += 0.5f;
             GameObject newCard = Instantiate(cardPrefab, new Vector3(lastCardLoc, 0, 0), Quaternion.Euler(0, 0, 0));
-            newCard.GetComponent<CardInfo>().cardData = unoCard;
+            //newCard.GetComponent<CardInfo>().cardData = unoCard;
         }
         else
         {
@@ -49,10 +50,10 @@ public class Connector : NetworkBehaviour
     }
 
     [Command]
-    public void Play(UnoCard card)
+    public void Play(Card card)
     {
         // Remove card from player's hand, instantiate card in server
-    }
+    }*/
 
 
 

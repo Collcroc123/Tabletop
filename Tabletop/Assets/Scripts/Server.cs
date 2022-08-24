@@ -8,7 +8,7 @@ public class Server : NetworkBehaviour
     private int cardColor, cardNumber;
     private int drawSize = 108, discardSize = 0;
     public bool infiniteDeck, blanks;
-    public UnoDeck draw, discard;
+    public Deck draw, discard;
     public GameObject card;
     private bool deckCreated, dealt;
 
@@ -22,10 +22,11 @@ public class Server : NetworkBehaviour
     
     public void StartGame()
     {
-        draw.CreateUnoDeck(drawSize);
-        InstantiateDeck();
+        //draw.CreateUnoDeck(drawSize);
+        //InstantiateDeck();
     }
-
+    
+    /*
     public void CheckCardPlayability(int playedColor, int playedNumber)
     {
         if (playedColor == cardColor || playedNumber == cardNumber)
@@ -42,15 +43,15 @@ public class Server : NetworkBehaviour
             if (draw.deck[i] != null)
             {
                 GameObject newCard = Instantiate(card, new Vector3(-1f, (i*0.005f)-0.5f, i*-0.01f), Quaternion.Euler(0, 0, 0));
-                newCard.GetComponent<CardInfo>().cardData = draw.deck[i];
+                //newCard.GetComponent<CardInfo>().cardData = draw.deck[i];
                 deckCreated = true;
             }
         }
     }
     
-    public UnoCard GetTopCard()
+    public Card GetTopCard()
     {
-        UnoCard returnCard = null;
+        Card returnCard = null;
         for (int i = 0; i < draw.deck.Length; i++)
         {
             if (draw.deck[i] == null || i == draw.deck.Length - 1)
@@ -64,9 +65,9 @@ public class Server : NetworkBehaviour
         return returnCard;
     }
 
-    public UnoCard GetCurrentCard()
+    public Card GetCurrentCard()
     {
-        UnoCard currentCard = null;
+        Card currentCard = null;
         for (int i = 0; i < discard.deck.Length; i++)
         {
             // NEED TO RETURN IF EMPTY!!!
@@ -123,9 +124,9 @@ public class Server : NetworkBehaviour
         }
     }
     
-    void PlayerSendCard(UnoCard card)
+    void PlayerSendCard(Card card)
     {
         Instantiate(card, new Vector3(1f, (discardSize*0.005f)-0.5f, discardSize*-0.01f), Quaternion.Euler(0, 0, 0));
         discardSize++;
-    }
+    }*/
 }
