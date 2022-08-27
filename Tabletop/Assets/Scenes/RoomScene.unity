@@ -1841,7 +1841,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 709595427}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Mirror.NetworkManager, Mirror
+        m_MethodName: StartServer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &709595427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4427,6 +4439,10 @@ PrefabInstance:
     - target: {fileID: 3315130474082205923, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}
       propertyPath: m_Name
       value: Player Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 6342210936604974237, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}
+      propertyPath: sceneId
+      value: 1084834927
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}

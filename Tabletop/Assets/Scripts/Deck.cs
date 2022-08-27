@@ -23,6 +23,7 @@ public class Deck : MonoBehaviour
             deck[i].GetComponent<Card>().color = cardColor;   // Black=0, Red=1, Blue=2, Green=3, Yellow=4
             deck[i].GetComponent<Card>().number = cardNumber; // 0-9, +2=10, Reverse=11, Skip=12, Blacks(Wild=0, +4=1, Blank=2)
             deck[i].GetComponent<Card>().GetImage();
+            deck[i].SetActive(false);
             Debug.Log("Color: " + cardColor + " Number: " + cardNumber);
             if (cardColor > 0)
             { // If cards are not black
