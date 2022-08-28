@@ -3,7 +3,6 @@ using Mirror;
 
 public class Connector : NetworkBehaviour
 {
-    public ServerManager manager;  // Manages incoming and outgoing connections
     public Server server;          // Server script for server commands
     public Client client;          // Client script for client commands
     private float lastCardLoc;     // TEMP! Spawns next card over from last

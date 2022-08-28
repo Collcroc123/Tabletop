@@ -3,7 +3,6 @@ using Mirror;
 
 public class Client : NetworkBehaviour
 {
-    public ServerManager manager;
     public Connector connector;
 
     public void DrawCards(int num)

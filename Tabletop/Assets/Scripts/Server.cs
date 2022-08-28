@@ -3,7 +3,6 @@ using Mirror;
 
 public class Server : NetworkBehaviour
 {
-    public ServerManager manager;
     public Connector connector;
     private int cardColor, cardNumber;
     private int drawSize = 108, discardSize = 0;

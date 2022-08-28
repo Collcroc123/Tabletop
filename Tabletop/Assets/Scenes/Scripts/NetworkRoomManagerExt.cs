@@ -1,26 +1,10 @@
 using UnityEngine;
 
-// Documentation: https://mirror-networking.gitbook.io/docs/components/network-manager
-// API Reference: https://mirror-networking.com/docs/api/Mirror.NetworkManager.html
-
 namespace Mirror.Examples.NetworkRoom
 {
     [AddComponentMenu("")]
     public class NetworkRoomManagerExt : NetworkRoomManager
     {
-        [Header("Spawner Setup")]
-        [Tooltip("Reward Prefab for the Spawner")]
-        public GameObject rewardPrefab;
-        
-        // This is called on the server when a networked scene finishes loading.
-        /// <param name="sceneName">Name of the new scene.</param>
-        public override void OnRoomServerSceneChanged(string sceneName)
-        {
-            // spawn the initial batch of Rewards
-            if (sceneName == GameplayScene)
-                Spawner.InitialSpawn();
-        }
-        
         // Called just after GamePlayer object is instantiated and just before it replaces RoomPlayer object.
         // This is the ideal point to pass any data like player name, credentials, tokens, colors, etc.
         // into the GamePlayer object as it is about to enter the Online scene.
@@ -32,21 +16,6 @@ namespace Mirror.Examples.NetworkRoom
             PlayerScore playerScore = gamePlayer.GetComponent<PlayerScore>();
             playerScore.index = roomPlayer.GetComponent<NetworkRoomPlayer>().index;
             return true;
-        }
-
-        public override void OnRoomStopClient()
-        {
-            base.OnRoomStopClient();
-        }
-
-        public override void OnRoomStopServer()
-        {
-            base.OnRoomStopServer();
-        }
-        
-        public void Quit()
-        {
-            Application.Quit();
         }
 
 

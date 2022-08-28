@@ -725,7 +725,6 @@
           <e p="Player.cs" t="Include" />
           <e p="PlayerUI.cs" t="Include" />
           <e p="Server.cs" t="Include" />
-          <e p="ServerManager.cs" t="Include" />
           <e p="Settings.cs" t="Include" />
         </e>
         <e p="ScriptTemplates" t="Include">
