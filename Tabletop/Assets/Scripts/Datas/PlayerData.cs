@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu]
 [System.Serializable]
+[CreateAssetMenu(menuName = "Datas/Player")]
 public class PlayerData : ScriptableObject
 {
     public string userName;

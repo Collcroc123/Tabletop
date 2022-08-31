@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3315130474082205948}
   - component: {fileID: 3315130474082205949}
   - component: {fileID: 6342210936604974237}
-  - component: {fileID: 1882009658155594229}
   m_Layer: 5
   m_Name: Player Card
   m_TagString: Untagged
@@ -97,23 +96,6 @@ MonoBehaviour:
   visible: 0
   m_AssetId: 61f3f29d098f34346957d18b13e0ddbc
   hasSpawned: 0
---- !u!114 &1882009658155594229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3315130474082205923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79874ac94d5b1314788ecf0e86bd23fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  showRoomGUI: 0
-  readyToBegin: 0
-  index: 0
 --- !u!1 &3315130475670185454
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Datas/Server")]
 public class ServerData : ScriptableObject
 {
     //public bool isTimeLimit;
