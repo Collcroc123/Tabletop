@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerSeat : MonoBehaviour
+public class PlayerInfo : MonoBehaviour
 {
     public bool isTaken;
 }
