@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class PlayerManager : NetworkBehaviour
 {
     public Transform hand;
-    public Transform seatList, iconList;
     private GameObject seat;
     private Color bgColor;
     
@@ -14,8 +13,8 @@ public class PlayerManager : NetworkBehaviour
         if (isLocalPlayer)
         {
             Camera.main.gameObject.transform.SetParent(transform);
-            Camera.main.gameObject.transform.localPosition = new Vector3(0,0,-0.4f);
-        } // transform.position.x,transform.position.y,-0.4f
+            Camera.main.gameObject.transform.localPosition = new Vector3(0,0,-100f);
+        }
     }
     
     public void PickSeat(int seatNum)

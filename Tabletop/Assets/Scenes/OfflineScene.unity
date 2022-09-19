@@ -583,6 +583,7 @@ MonoBehaviour:
   spawnPrefabs: []
   news: {fileID: 1044722934}
   settings: {fileID: 1458747322}
+  entryPrefab: {fileID: 3315130474082205923, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}
 --- !u!1 &491734079
 GameObject:
   m_ObjectHideFlags: 0
