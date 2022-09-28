@@ -841,8 +841,6 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'NEWS:
 
-    There is no news :)
-
     Have fun!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ff0bd2be84ec414aa9f6638f6cd3d3d, type: 2}
