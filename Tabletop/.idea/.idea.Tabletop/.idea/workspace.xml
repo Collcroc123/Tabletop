@@ -21,78 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d8cf30bf-4574-4cd6-9bdf-d06bbe0ed6ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tabletop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tabletop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats &amp; Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats &amp; Sprites/Icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats &amp; Sprites/Icons.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats &amp; Sprites/Menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats &amp; Sprites/Menu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats &amp; Sprites/Scroll.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mats &amp; Sprites/Scroll.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Card.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Card.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Entry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Entry.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/PlayArea.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/PlayArea.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/Player.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/Player.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/Prize.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/Prize.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/Wall01.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/Wall01.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/Wall01_n.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Materials/Wall01_n.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OfflineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OfflineScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OnlineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OnlineScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prefabs/GamePlayer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prefabs/GamePlayer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prefabs/Prize.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prefabs/Prize.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prefabs/RoomPlayer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prefabs/RoomPlayer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/NetworkRoomManagerExt.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/NetworkRoomManagerExt.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/NetworkRoomPlayerExt.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/NetworkRoomPlayerExt.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/PlayerCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/PlayerCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/PlayerScore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/PlayerScore.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/RandomColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/RandomColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/Reward.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/Reward.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/Spawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scripts/Spawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/50-Mirror__Network Manager-NewNetworkManager.cs.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/57-Mirror__Network Transform-NewNetworkTransform.cs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptTemplates/57-Mirror__Network Transform-NewNetworkTransform.cs.txt.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerInfo.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
@@ -102,16 +33,14 @@
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/level0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/level1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/resources.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/resources.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/resources.assets.resS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets.resS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets1.assets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,6 +206,7 @@
       <workItem from="1662569400952" duration="4685000" />
       <workItem from="1663610122352" duration="2868000" />
       <workItem from="1664381946290" duration="4264000" />
+      <workItem from="1664816083832" duration="3666000" />
     </task>
     <servers />
   </component>
@@ -612,7 +542,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs</url>
-          <line>31</line>
+          <line>32</line>
           <properties documentPath="C:\Users\10840430\Documents\GitHub\Tabletop\Tabletop\Assets\Scripts\PlayerManager.cs" initialLine="19" isMultiMethodBreakpoint="true">
             <option name="multiMethodBreakpoint" value="true" />
             <startOffsets>

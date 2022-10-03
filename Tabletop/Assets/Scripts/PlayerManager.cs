@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PlayerManager : NetworkBehaviour
 {
     public Transform hand;
-    private GameObject entry; 
-    public GameObject entryPrefab;
+    private GameObject entry;
+    public GameObject entryPrefab, playerMenu, handMenu;
 
     void Start()
     {
@@ -23,11 +23,12 @@ public class PlayerManager : NetworkBehaviour
     public void CmdPlayerEntry()
     {
         entry = Instantiate(entryPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        entry.GetComponent<PlayerEntry>().parentClient = transform.gameObject;
         entry.transform.parent = GameObject.Find("/Table/Menu/Blue Window/Players List/Viewport/Content/").transform;
         entry.transform.localScale = new Vector3(1,1,1);
         //NetworkServer.Spawn(entry);
     }
-    
+
     /*
     public void PickSeat(int seatNum)
     {
@@ -65,10 +66,11 @@ public class PlayerManager : NetworkBehaviour
     {
         entry.transform.GetChild(1).GetComponent<TMP_Text>().text = name;
     }
-
+    /*
     [ClientRpc]
-    private void RpcSyncInfo()
+    public void RpcHandMenu()
     {
-        
-    }
+        handMenu.SetActive(true);
+        playerMenu.SetActive(false);
+    }*/
 }
