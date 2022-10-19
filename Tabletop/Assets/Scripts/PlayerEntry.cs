@@ -6,9 +6,6 @@ public class PlayerEntry : MonoBehaviour
 
     private void Update()
     {
-        if (parentClient == null)
-        {
-            Destroy(transform.gameObject);
-        }
+        if (parentClient == null) Destroy(transform.gameObject);
     }
 }

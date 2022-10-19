@@ -1,7 +1,6 @@
 using UnityEngine;
 using Mirror;
 using TMPro;
-using UnityEngine.UI;
 
 public class NetManager : NetworkManager
 {
@@ -9,7 +8,8 @@ public class NetManager : NetworkManager
     private TextMeshProUGUI playerCountTxt;
     private int playerCount;
     private bool toggled;
-    public bool gameStart;
+    private GameManager gManager;
+    //public bool gameStart;
     
     private void PlayerCounter(int num)
     {
@@ -36,6 +36,7 @@ public class NetManager : NetworkManager
     { // When the SERVER starts
         base.OnServerSceneChanged("OnlineScene");
         PlayerCounter(0);
+        gManager = GameObject.Find("Table").GetComponent<GameManager>();
     }
 
     public override void OnServerConnect(NetworkConnectionToClient conn)

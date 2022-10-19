@@ -5,10 +5,14 @@ using UnityEngine.UI;
 
 public class PlayerManager : NetworkBehaviour
 {
-    public Transform hand;
     private GameObject entry;
-    public GameObject entryPrefab, playerMenu, handMenu;
-
+    public GameObject entryPrefab;
+    public Color iconColor;
+    public string username;
+    
+    //public GameObject playerMenu, handMenu;
+    //public Transform hand;
+    
     void Start()
     {
         if (isLocalPlayer)
@@ -47,7 +51,8 @@ public class PlayerManager : NetworkBehaviour
     
     public void PickIcon(Image bg)
     {
-        CmdSetIcon(bg.color);
+        iconColor = bg.color;
+        CmdSetIcon(iconColor);
     }
 
     [Command]
@@ -58,16 +63,17 @@ public class PlayerManager : NetworkBehaviour
 
     public void GetUsername(TMP_InputField input)
     {
-        CmdSetUsername(input.text);
+        username = input.text;
+        CmdSetUsername(username);
     }
 
     [Command]
-    public void CmdSetUsername(string name)
+    public void CmdSetUsername(string playername)
     {
-        entry.transform.GetChild(1).GetComponent<TMP_Text>().text = name;
+        entry.transform.GetChild(1).GetComponent<TMP_Text>().text = playername;
     }
-    /*
-    [ClientRpc]
+    
+    /*[ClientRpc]
     public void RpcHandMenu()
     {
         handMenu.SetActive(true);

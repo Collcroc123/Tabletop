@@ -1133,10 +1133,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  hand: {fileID: 2000635128762950304}
   entryPrefab: {fileID: 3315130474082205923, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}
-  playerMenu: {fileID: 7507729766470702748}
-  handMenu: {fileID: 2000635129035517406}
+  iconColor: {r: 0, g: 0, b: 0, a: 0}
+  username: 
 --- !u!114 &2000635128316004035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1169,7 +1168,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   clientAuthority: 1
-  sendInterval: 0.05
+  sendInterval: 1
   syncPosition: 1
   syncRotation: 1
   syncScale: 0

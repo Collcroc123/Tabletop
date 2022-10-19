@@ -21,10 +21,309 @@
   <component name="ChangeListManager">
     <list default="true" id="d8cf30bf-4574-4cd6-9bdf-d06bbe0ed6ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tabletop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tabletop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Entry.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Entry.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Discard.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Discard.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Draw.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Draw.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Attack4F.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Attack4F.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Button.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Button.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/ButtonSlideIn.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/ButtonSlideIn.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/ButtonSlideOut.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/ButtonSlideOut.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/CastHit.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/CastHit.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/RHand.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/RHand.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/SpellHit.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/SpellHit.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Trans_IN.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Trans_IN.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Trans_OUT.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Trans_OUT.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Transition.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Animations/Transition.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/New Server Data.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/New Server Data.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/PlayerData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/PlayerData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells/BaseSpell.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells/BaseSpell.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells/Fire.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells/Fire.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells/Ice.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells/Ice.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells/Spells.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Datas/Spells/Spells.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Editor/ColorLibrary.colors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Editor/ColorLibrary.colors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Ground.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Ground.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Materials/ObjectMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Materials/ObjectMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Meshes/cube.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Meshes/cube.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Prefabs/Test Elements - DELETE.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Prefabs/Test Elements - DELETE.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts/FadeMaterials.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts/FadeMaterials.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts/RandomPalette.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts/RandomPalette.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts/RandomPaletteButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts/RandomPaletteButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts/Rotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Scripts/Rotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Shaders/VertexColor.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/Shaders/VertexColor.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/UI Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/UI Textures/GBCamera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/UI Textures/GBCamera.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/UI Textures/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/UI Textures/question.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/UI Textures/roguenoodle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Example Elements/UI Textures/roguenoodle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Materials/GBCamera_Render.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Materials/GBCamera_Render.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Materials/GBCamera_UI.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Materials/GBCamera_UI.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Prefabs/Game Camera - RENDERS TO TEXTURE.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Prefabs/Game Camera - RENDERS TO TEXTURE.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Prefabs/Render Camera - DO NOT ADJUST.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Prefabs/Render Camera - DO NOT ADJUST.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Scenes/GBCamera_RenderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Scenes/GBCamera_RenderTexture.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Scenes/GBCamera_RenderTexture.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Scenes/GBCamera_RenderTexture/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Scenes/GBCamera_RenderTexture/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Scenes/GBCamera_RenderTextureSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Scenes/GBCamera_RenderTextureSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Shaders/GBPalette.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Shaders/GBPalette.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Shaders/GBPalette_UI.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Shaders/GBPalette_UI.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/GBRenderTexture.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/GBRenderTexture.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette Import.preset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette Import.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette-9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/Textures/Palettes/GBPalette.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/gbcamera_PPS.unitypackage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/gbcamera_PPS.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/RogueNoodle/GBCamera/readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/SampleSceneProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/SampleSceneProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-Balanced-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-Balanced-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-Balanced.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-Balanced.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-HighFidelity-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-HighFidelity.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-HighFidelity.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-Performant-Renderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-Performant-Renderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-Performant.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/Settings/URP-Performant.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/MainMenuTemplate.uxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/MainMenuTemplate.uxml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/PanelSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/PanelSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/Style.uss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/Style.uss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/UnityThemes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Extra/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Cast.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Cast.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/CastHit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/CastHit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Projectile.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Projectile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/ServerListing.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/ServerListing.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Spawn.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Spawn.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Tank.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Prefabs/Tank.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/Menu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/Menu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/TestLevel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/TestLevel.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/TestLevel.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/TestLevel/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/TestLevel/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/TestLevel/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scenes/TestLevel/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/AngleBillboard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/AngleBillboard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Billboard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Billboard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/PlayerDataOLD.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/PlayerDataOLD.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/ServerDataOLD.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/ServerDataOLD.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/SpellArrayData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/SpellArrayData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/SpellData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/SpellData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Destroyer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Destroyer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/GameAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/GameAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/GameActionHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/GameActionHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/MainMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/MainMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/NetworkActions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/NetworkActions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/OnHover.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/OnHover.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player/PlayerAttack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player/PlayerAttack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player/PlayerCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player/PlayerCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player/PlayerHealth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player/PlayerHealth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player/PlayerMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Player/PlayerMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/ServerSelected.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/ServerSelected.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Spellcast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/Spellcast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/SteamActions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Scripts/SteamActions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Sounds/Hit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Sounds/Hit.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Sounds/Hurt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Sounds/Hurt.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Book.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/BookIcons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/BookIcons.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Bottom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Bullet-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Bullet-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Crosshair.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Crosshair.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Death-Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Death-Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Grid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Health.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Health.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/L_Hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/L_Hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Grey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Grey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Grid 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Grid 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Grid 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Grid 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Grid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Grid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Lit Sprite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/Lit Sprite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/SkyBox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Materials/SkyBox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Person-Sheet2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Person-Sheet2x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/R_Hand 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/R_Hand 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Side.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Side.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/Top.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/W_Player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/W_Player.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/W_Player_Anim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PIXELFPS/Textures/W_Player_Anim.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OfflineScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OfflineScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OnlineScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OnlineScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CanvasUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Client.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Client.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Connector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Connector.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerEntry.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Server.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Server.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Settings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Settings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scroll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scroll.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Plugins/x86_64/lib_burst_generated.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Plugins/x86_64/lib_burst_generated.dll" afterDir="false" />
@@ -34,13 +333,18 @@
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/level1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/resources.assets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets.resS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets1.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets1.assets.resS" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets1.assets.resS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +363,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/PlayerDataOLD.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PIXELFPS/Scripts/DataScripts/ServerDataOLD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PIXELFPS/Scripts/SteamActions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -207,6 +508,7 @@
       <workItem from="1663610122352" duration="2868000" />
       <workItem from="1664381946290" duration="4264000" />
       <workItem from="1664816083832" duration="3666000" />
+      <workItem from="1666198240541" duration="6190000" />
     </task>
     <servers />
   </component>
@@ -536,25 +838,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs</url>
-          <line>32</line>
-          <properties documentPath="C:\Users\10840430\Documents\GitHub\Tabletop\Tabletop\Assets\Scripts\PlayerManager.cs" initialLine="19" isMultiMethodBreakpoint="true">
-            <option name="multiMethodBreakpoint" value="true" />
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
