@@ -246,8 +246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 19}
-  m_SizeDelta: {x: 388, y: 50}
+  m_AnchoredPosition: {x: 50.5, y: 19}
+  m_SizeDelta: {x: 404, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1781116723050983996
 CanvasRenderer:
@@ -677,10 +677,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -696,13 +696,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 6217587467656592874}
+  m_TargetGraphic: {fileID: 5921012404627982054}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 6217587467656592874}
@@ -811,10 +811,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -830,13 +830,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 4630766459433545386}
+  m_TargetGraphic: {fileID: 7705355981002786118}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 4630766459433545386}
@@ -1101,7 +1101,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &2000635128316004031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1134,8 +1134,9 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   entryPrefab: {fileID: 3315130474082205923, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}
-  iconColor: {r: 0, g: 0, b: 0, a: 0}
   username: 
+  iconColor: {r: 0, g: 0, b: 0, a: 0}
+  isReady: 0
 --- !u!114 &2000635128316004035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1940,10 +1941,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1959,13 +1960,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 7389475001973913762}
+  m_TargetGraphic: {fileID: 3313713918487908540}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 7389475001973913762}
@@ -2311,10 +2312,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2330,13 +2331,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 281931242942839141}
+  m_TargetGraphic: {fileID: 2048451328359433391}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 281931242942839141}
@@ -2823,10 +2824,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2842,13 +2843,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 3772186363882071722}
+  m_TargetGraphic: {fileID: 7349525552840442997}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 3772186363882071722}
@@ -2870,7 +2871,7 @@ GameObject:
   - component: {fileID: 76923646320595589}
   - component: {fileID: 1507868531757996156}
   m_Layer: 5
-  m_Name: Games List
+  m_Name: Icon List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3112,10 +3113,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3131,13 +3132,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 4985422684945071538}
+  m_TargetGraphic: {fileID: 7595291143791739440}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 4985422684945071538}
@@ -3234,6 +3235,7 @@ RectTransform:
   - {fileID: 4904353656493551990}
   - {fileID: 259855122588289885}
   - {fileID: 229934350877195634}
+  - {fileID: 4288046180910795321}
   m_Father: {fileID: 2000635128316004034}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3455,10 +3457,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3474,13 +3476,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 9044818637901052635}
+  m_TargetGraphic: {fileID: 2414343477649866968}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 9044818637901052635}
@@ -3589,10 +3591,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -3608,13 +3610,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1445656882553075414}
+  m_TargetGraphic: {fileID: 805799798735149144}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1445656882553075414}
@@ -3919,7 +3921,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: GetUsername
+        m_MethodName: SetUsername
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 4839450696855922895}
@@ -4046,10 +4048,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+    m_HighlightedColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+    m_PressedColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -4065,13 +4067,13 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 8376426935563512124}
+  m_TargetGraphic: {fileID: 962651016738880822}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2000635128316004032}
         m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
-        m_MethodName: PickIcon
+        m_MethodName: SetIcon
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8376426935563512124}
@@ -4081,3 +4083,157 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!1001 &2737239568417422607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7155691904206723354}
+    m_Modifications:
+    - target: {fileID: 1512736692946565742, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_Name
+      value: Save Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889877027272834562, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889877027272834562, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889877027272834562, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2000635128316004032}
+    - target: {fileID: 2889877027272834562, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889877027272834562, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetPlayerInfo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889877027272834562, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889877027272834562, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6014633110816745173, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 6014633110816745173, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6866413097410333991, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+      propertyPath: m_text
+      value: READY!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+--- !u!224 &4288046180910795321 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2197356030264964918, guid: f94bbf06f7f584441b25854244e0754c, type: 3}
+  m_PrefabInstance: {fileID: 2737239568417422607}
+  m_PrefabAsset: {fileID: 0}
