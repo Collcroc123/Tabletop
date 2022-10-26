@@ -21,25 +21,71 @@
   <component name="ChangeListManager">
     <list default="true" id="d8cf30bf-4574-4cd6-9bdf-d06bbe0ed6ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tabletop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tabletop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OnlineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OnlineScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/NetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NetManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_BurstDebugInformation_DoNotShip/Data/Plugins/x86_64/lib_burst_generated.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Febucci.TextAnimator.Demo.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Febucci.TextAnimator.Demo.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Febucci.TextAnimator.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Febucci.TextAnimator.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Mirror.Authenticators.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Mirror.Authenticators.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Mirror.Components.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Mirror.Components.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Mirror.Examples.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Mirror.Examples.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Mirror.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Mirror.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/SimpleWebTransport.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/SimpleWebTransport.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Telepathy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Telepathy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.Animation.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.Animation.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.Common.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.Common.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.IK.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.IK.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.PixelPerfect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.PixelPerfect.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.Tilemap.Extras.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.2D.Tilemap.Extras.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Burst.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Burst.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Collections.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Collections.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Mathematics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Mathematics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Netcode.Components.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Netcode.Components.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Netcode.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Netcode.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Networking.Transport.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Networking.Transport.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Postprocessing.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Postprocessing.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.ProGrids.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.ProGrids.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Analytics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Analytics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Configuration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Configuration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Device.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Device.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Environments.Internal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Environments.Internal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Environments.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Environments.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Internal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Internal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Networking.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Networking.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Registration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Registration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Scheduler.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Scheduler.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Telemetry.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Telemetry.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Threading.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.Threading.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Services.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.VisualScripting.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.VisualScripting.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.VisualScripting.Flow.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.VisualScripting.Flow.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.VisualScripting.State.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/Unity.VisualScripting.State.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/UnityEngine.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/WebSocket Transport for Netcode for GameObjects.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/WebSocket Transport for Netcode for GameObjects.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/kcp2k.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/kcp2k.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/where-allocations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Managed/where-allocations.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/Plugins/x86_64/lib_burst_generated.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/Plugins/x86_64/lib_burst_generated.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/globalgamemanagers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/globalgamemanagers.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/level0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/level1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/resources.assets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets0.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Tabletop_Data/sharedassets1.assets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +251,7 @@
       <workItem from="1664816083832" duration="3666000" />
       <workItem from="1666198240541" duration="6190000" />
       <workItem from="1666629118087" duration="9771000" />
+      <workItem from="1666808133614" duration="2637000" />
     </task>
     <servers />
   </component>

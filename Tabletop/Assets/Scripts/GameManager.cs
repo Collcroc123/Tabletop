@@ -3,14 +3,17 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public PlayerManager[] playerList;
-    
-    void Start()
+
+    public void StartGame()
     {
-        
-    }
-    
-    void Update()
-    {
+        foreach (var player in playerList)
+        {
+            if (!player.isReady)
+            {
+                Debug.Log("CONNECTED USER HAS NOT ENTERED A NAME OR ICON");
+                return;
+            }
+        }
         
     }
 }

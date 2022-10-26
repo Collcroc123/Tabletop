@@ -10,23 +10,24 @@ public class NetManager : NetworkManager
     private TextMeshProUGUI playerCountTxt;
     private bool toggled;
     private GameManager gManager;
-    //public bool gameStart;
-    
-    [Scene] [SerializeField] private string menuScene = string.Empty;
-    [SerializeField] private PlayerManager playerPrefab = null;
-    
-    private void PlayerCounter()
-    {
-        Debug.Log("CONNECTION EVENT");
-        playerCountTxt = GameObject.Find("/Table/Menu/Blue Window/Player Count").GetComponent<TextMeshProUGUI>();
-        playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
-    }
+
+    //[Scene] [SerializeField] private string menuScene = string.Empty;
+    //[SerializeField] private PlayerManager playerPrefab = null;
 
     public void ToggleSettings()
     {
         toggled = !toggled;
         settings.SetActive(toggled);
         news.SetActive(!toggled);
+    }
+    
+    public void ConnectionEvent()
+    {
+        Debug.Log("CONNECTION EVENT");
+        playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
+        GameObject[] array = GameObject.FindGameObjectsWithTag("Player");
+        for (int i = 0; i < array.Length; i++) 
+            gManager.playerList[i] = array[i].GetComponent<PlayerManager>();
     }
     
     public void Quit()
@@ -38,7 +39,8 @@ public class NetManager : NetworkManager
     public override void OnServerSceneChanged(string sceneName)
     { // When the SERVER starts
         base.OnServerSceneChanged("OnlineScene");
-        PlayerCounter();
+        playerCountTxt = GameObject.Find("/Table/Menu/Blue Window/Player Count").GetComponent<TextMeshProUGUI>();
+        playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
         gManager = GameObject.Find("Table").GetComponent<GameManager>();
     }
     
@@ -68,13 +70,13 @@ public class NetManager : NetworkManager
     public override void OnServerConnect(NetworkConnectionToClient conn)
     { // When a client joins the SERVER
         base.OnServerConnect(conn);
-        PlayerCounter();
+        ConnectionEvent();
     }
 
     public override void OnServerDisconnect(NetworkConnectionToClient conn)
     { // When a client leaves the SERVER
         base.OnServerDisconnect(conn);
-        PlayerCounter();
+        ConnectionEvent();
     }
     #endregion
 }
