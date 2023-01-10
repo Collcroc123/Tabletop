@@ -7,6 +7,7 @@ public class PlayerManager : NetworkBehaviour
 {
     [Header("Player Entry")]
     public GameObject entryPrefab;
+    public GameObject iconOutline;
     private GameObject entry = null;
     public string username;
     public Color iconColor;
@@ -37,7 +38,7 @@ public class PlayerManager : NetworkBehaviour
         {
             entry = Instantiate(entryPrefab, new Vector3(0, 0, 0), Quaternion.identity);
             entry.GetComponent<PlayerEntry>().parentClient = transform.gameObject;
-            entry.transform.parent = GameObject.Find("/Table/Menu/Blue Window/Players List/Viewport/Content/").transform;
+            entry.transform.SetParent(GameObject.Find("/Table/Menu/Blue Window/Players List/Viewport/Content/").transform);
             entry.transform.localScale = new Vector3(1,1,1);
             entry.transform.GetChild(1).GetComponent<TMP_Text>().text = displayName;
             entry.transform.GetChild(0).GetComponent<Image>().color = icon;
@@ -54,13 +55,12 @@ public class PlayerManager : NetworkBehaviour
     {
         username = input.text;
         PlayerPrefs.SetString(PlayerNameKey, username);
-        //Debug.Log("Set Username: " + username);
     }
     
     public void SetIcon(Image bg)
     {
         iconColor = bg.color;
-        //Debug.Log("Set Icon Color: " + iconColor);
+        iconOutline.transform.SetParent(bg.transform, false);
     }
     
     /*

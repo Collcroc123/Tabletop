@@ -27,7 +27,10 @@ public class NetManager : NetworkManager
         playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
         GameObject[] array = GameObject.FindGameObjectsWithTag("Player");
         for (int i = 0; i < array.Length; i++) 
+        {
+            Debug.Log(array[i].name);
             gManager.playerList[i] = array[i].GetComponent<PlayerManager>();
+        }  
     }
     
     public void Quit()
