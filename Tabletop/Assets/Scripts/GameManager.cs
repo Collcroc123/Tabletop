@@ -2,18 +2,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public PlayerManager[] playerList;
+    private NetManager netMan;
+    public GameObject cardDeck;
+
+    void Start()
+    {
+        GameObject network = GameObject.Find("/NetworkManager/");
+        netMan = network.GetComponent<NetManager>();
+    }
 
     public void StartGame()
     {
-        foreach (var player in playerList)
-        {
-            if (!player.isReady)
-            {
-                Debug.Log("CONNECTED USER HAS NOT ENTERED A NAME OR ICON");
-                return;
-            }
-        }
-        
+        cardDeck.SetActive(true);
     }
 }

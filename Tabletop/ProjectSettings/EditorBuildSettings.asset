@@ -7,8 +7,8 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/OfflineScene.unity
-    guid: 9e6f14982412b2545a0911ebaaa46a23
+    guid: 0433f6ca8dd63ca4e9e9dcbd5abf3a6b
   - enabled: 1
     path: Assets/OnlineScene.unity
-    guid: 48478f4d522f96945b8396f376299d3a
+    guid: d58176aca3b7f5c40aa44ff985d86fa2
   m_configObjects: {}
