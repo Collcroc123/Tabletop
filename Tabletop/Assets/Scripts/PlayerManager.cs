@@ -8,6 +8,7 @@ public class PlayerManager : NetworkBehaviour
     private GameObject entry = null;
     public GameObject entryPrefab;
     public GameObject waitScreen, handScreen;
+    public NetManager netMan;
     
     void Start()
     {
@@ -16,6 +17,8 @@ public class PlayerManager : NetworkBehaviour
             Camera.main.gameObject.transform.SetParent(transform);
             Camera.main.gameObject.transform.localPosition = new Vector3(0,0,-100f);
         }
+        if (netMan != null) CmdPlayerEntry(netMan.username, netMan.iconColor);
+        else Debug.Log("MISSING NETMAN!");
     }
 
     [Command]

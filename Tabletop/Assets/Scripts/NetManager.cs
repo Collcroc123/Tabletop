@@ -73,8 +73,9 @@ public class NetManager : NetworkManager
         foreach (GameObject player in GameObject.FindGameObjectsWithTag("Player"))
         {
             PlayerManager pMan = player.GetComponent<PlayerManager>();
+            pMan.netMan = this;
             playerList.Add(pMan);
-            if (joined) pMan.CmdPlayerEntry(username, iconColor);
+            //if (joined) pMan.PlayerEntry(username, iconColor);
         }
     }
 
@@ -134,13 +135,18 @@ public class NetManager : NetworkManager
     public override void OnServerConnect(NetworkConnectionToClient conn)
     { // When a client joins the SERVER
         base.OnServerConnect(conn);
-        ConnectionEvent(true);
+        //ConnectionEvent(true);
     }
 
     public override void OnServerDisconnect(NetworkConnectionToClient conn)
     { // When a client leaves the SERVER
         base.OnServerDisconnect(conn);
         ConnectionEvent(false);
+    }
+    public override void OnServerAddPlayer(NetworkConnectionToClient conn)
+    { // When a player object loads on the SERVER
+        base.OnServerAddPlayer(conn);
+        ConnectionEvent(true);
     }
     #endregion
 }
