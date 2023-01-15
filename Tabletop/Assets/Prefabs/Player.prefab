@@ -347,10 +347,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  entryPrefab: {fileID: 3315130474082205923, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}
-  settings: {fileID: 0}
   waitScreen: {fileID: 5324669441555185962}
   handScreen: {fileID: 2000635129558753197}
+  userName: 
+  iconColor: {r: 0, g: 0, b: 0, a: 0}
+  entryPrefab: {fileID: 3315130474082205923, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}
 --- !u!114 &2000635128316004035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,7 +1050,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5515445561686039483}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2000635128316004032}
+        m_TargetAssemblyTypeName: PlayerManager, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7234242573134954174
 GameObject:
   m_ObjectHideFlags: 0

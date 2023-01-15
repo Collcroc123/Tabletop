@@ -373,7 +373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5867db0839698844b388c60aede9488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 1
+  enableOrDisable: 1
+  inverted: 0
   hostMenu: {fileID: 2798227668862465188}
   clientMenu: {fileID: 5477249068245847607}
 --- !u!1 &336594855
@@ -604,7 +605,7 @@ MonoBehaviour:
   settingsMenu: {fileID: 1458747322}
   playerList: []
   roomCode: 
-  username: 
+  userName: 
   iconColor: {r: 0, g: 0, b: 0, a: 0}
   errorMessage: {fileID: 1705383632}
 --- !u!1 &491734079
@@ -5274,7 +5275,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 296, y: 194}
+  m_SizeDelta: {x: 294, y: 192}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5197156743022159513
 GameObject:

@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerEntry : MonoBehaviour
 {
-    public GameObject parentClient;
-
-    private void Update()
+    public void SetInfo(string name, Color icon)
     {
-        if (parentClient == null) Destroy(transform.gameObject);
+        transform.GetChild(0).GetComponent<Image>().color = icon;
+        transform.GetChild(1).GetComponent<TMP_Text>().text = name; 
     }
 }

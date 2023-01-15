@@ -1,14 +1,15 @@
 using UnityEngine;
+using Mirror;
 
-public class GameManager : MonoBehaviour
+public class GameManager : NetworkBehaviour
 {
-    private NetManager netMan;
+    public GameObject playerList;
     public GameObject cardDeck;
 
-    void Start()
+    public static GameManager instance;
+    void Awake()
     {
-        GameObject network = GameObject.Find("/NetworkManager/");
-        netMan = network.GetComponent<NetManager>();
+        instance = this;
     }
 
     public void StartGame()

@@ -1,38 +1,23 @@
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using Mirror;
-using TMPro;
 
 public class PlayerManager : NetworkBehaviour
 {
-    private GameObject entry = null;
-    public GameObject entryPrefab;
     public GameObject waitScreen, handScreen;
-    public NetManager netMan;
-    
-    void Start()
-    {
-        if (isLocalPlayer)
-        {
-            Camera.main.gameObject.transform.SetParent(transform);
-            Camera.main.gameObject.transform.localPosition = new Vector3(0,0,-100f);
-        }
-        if (netMan != null) CmdPlayerEntry(netMan.username, netMan.iconColor);
-        else Debug.Log("MISSING NETMAN!");
-    }
+
+    [SyncVar] public string userName;
+    [SyncVar] public Color iconColor;
+    public GameObject entryPrefab;
+    private PlayerEntry entry = null;
 
     [Command]
-    public void CmdPlayerEntry(string displayName, Color icon)
+    public void CmdPlayerEntry(string name, Color icon)
     { // Creates a player entry in the players list on the server
-        if (entry == null)
-        {
-            entry = Instantiate(entryPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-            entry.GetComponent<PlayerEntry>().parentClient = transform.gameObject;
-            entry.transform.SetParent(GameObject.Find("/Table/Menu/Blue Window/Players List/Viewport/Content/").transform);
-            entry.transform.localScale = new Vector3(1,1,1);
-        }
-        entry.transform.GetChild(1).GetComponent<TMP_Text>().text = displayName;
-        entry.transform.GetChild(0).GetComponent<Image>().color = icon;
+        userName = name;
+        iconColor = icon;
+        entry = Instantiate(entryPrefab, GameManager.instance.playerList.transform).GetComponent<PlayerEntry>();
+        entry.SetInfo(userName, iconColor);
     }
 
     public void StartGame()
@@ -40,27 +25,44 @@ public class PlayerManager : NetworkBehaviour
         handScreen.SetActive(true);
         waitScreen.SetActive(false);
     }
-    
-    /*
-    public void PickSeat(int seatNum)
+
+    public void Quit()
     {
-        seat = GameObject.Find("/Seats/Seat " + seatNum);
-        if (!seat.GetComponent<PlayerInfo>().isTaken)
-        {
-            transform.position = seat.transform.position;
-            seat.GetComponent<PlayerInfo>().isTaken = true;
-        }
-        else
-        {
-            Debug.Log("SEAT #" + seatNum + " IS TAKEN");
-        }
+        Application.Quit();
     }
-    */
-    
-    /*[ClientRpc]
-    public void RpcHandMenu()
+
+    public override void OnStartServer()
     {
-        handMenu.SetActive(true);
-        playerMenu.SetActive(false);
-    }*/
+        Debug.Log("OnStartServer");
+        base.OnStartServer();
+        NetManager.instance.playerList.Add(this);
+    }
+
+    public override void OnStartClient()
+    {
+        Debug.Log("OnStartClient");
+        base.OnStartClient();
+        if (isLocalPlayer)
+        {
+            Camera.main.gameObject.transform.SetParent(transform);
+            Camera.main.gameObject.transform.localPosition = new Vector3(0,0,-100f);
+        }
+        userName = NetManager.instance.userName;
+        iconColor = NetManager.instance.iconColor;
+        CmdPlayerEntry(userName, iconColor);
+    }
+
+    public override void OnStopServer()
+    {
+        Debug.Log("OnStopServer");
+        base.OnStopServer();
+        NetManager.instance.playerList.Remove(this);
+        Destroy(entry.transform.gameObject);
+    }
+
+    public override void OnStopClient()
+    {
+        Debug.Log("OnStopClient");
+        base.OnStopClient();
+    }
 }
