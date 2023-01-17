@@ -82,11 +82,7 @@ public class NetManager : NetworkManager
         if (numPlayers == 0) Debug.Log("NO PLAYERS PRESENT!");
         else
         {
-            foreach (var player in playerList)
-            {
-                player.StartGame();
-            }
-            GameManager.instance.StartGame();
+            foreach (var player in playerList) player.StartGame();
         }
     }
 

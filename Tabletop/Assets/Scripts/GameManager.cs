@@ -14,6 +14,7 @@ public class GameManager : NetworkBehaviour
 
     public void StartGame()
     {
+        NetManager.instance.StartGame();
         cardDeck.SetActive(true);
     }
 }
