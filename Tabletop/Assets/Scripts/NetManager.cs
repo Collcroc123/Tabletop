@@ -73,7 +73,6 @@ public class NetManager : NetworkManager
     public void ConnectionEvent()
     {
         Debug.Log("CONNECTION EVENT");
-        Debug.Log(numPlayers + " PLAYERS");
         playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
     }
 

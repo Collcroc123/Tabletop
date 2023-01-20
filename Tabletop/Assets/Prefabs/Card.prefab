@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7096446008045763054}
   - component: {fileID: 7096446008045763053}
   - component: {fileID: 746998317477253640}
-  - component: {fileID: 4397954068588830977}
   m_Layer: 0
   m_Name: Card
   m_TagString: Untagged
@@ -54,7 +53,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: bd79b4e526a656044ace1899987dce55, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2548c6a4240ba8946bf21ea057616ec3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &746998317477253640
@@ -100,21 +99,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 0
   number: 0
+  data: {fileID: 11400000, guid: 70e15424c2e6f434c825842701c562db, type: 2}
   cardImage: {fileID: 7096446008045763053}
---- !u!114 &4397954068588830977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7096446008045763052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneId: 0
-  serverOnly: 0
-  visible: 0
-  m_AssetId: 695663f295d01c34d9ceb0a4445c789e
-  hasSpawned: 0
+  shader: {fileID: 2100000, guid: bd79b4e526a656044ace1899987dce55, type: 2}

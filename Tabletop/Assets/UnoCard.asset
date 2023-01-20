@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf9ad4bb42122bb4795ab20a4d9674db, type: 3}
+  m_Name: UnoCard
+  m_EditorClassIdentifier: 
+  colors:
+  - {r: 0.909804, g: 0.23137257, b: 0.23137257, a: 1}
+  - {r: 0.3019608, g: 0.39607847, b: 0.7058824, a: 1}
+  - {r: 0.11764707, g: 0.7372549, b: 0.45098042, a: 1}
+  - {r: 0.97647065, g: 0.7607844, b: 0.16862746, a: 1}
+  backgroundSprite:
+  - {fileID: 21300000, guid: 2548c6a4240ba8946bf21ea057616ec3, type: 3}
+  - {fileID: 21300000, guid: c5e42bfad0d31b84cb7ae226a7fdaf76, type: 3}
+  borderSprite:
+  - {fileID: 21300000, guid: 7714933352e58ac44ac09e03784499d2, type: 3}
+  - {fileID: 21300000, guid: e3e278fd775f8204a93f637ae9dba40a, type: 3}
+  numberSprite:
+  - {fileID: 21300000, guid: d34064607125d2f4ba9aadbb25e74d69, type: 3}
+  - {fileID: 21300000, guid: 0813f6db54ebc0d4696c3648e5a78c58, type: 3}
+  - {fileID: 21300000, guid: a35b57b12bd7f994bbf48d4409b7535a, type: 3}
+  - {fileID: 21300000, guid: ba70f2e4427839d40a8db3b1b865144e, type: 3}
+  - {fileID: 21300000, guid: 4064570aecab6f54b8b8b82ba93727a7, type: 3}
+  - {fileID: 21300000, guid: 06435dfc95f35aa44a8aef0d40d5e8a6, type: 3}
+  - {fileID: 21300000, guid: 818e881ad9be5764191d19b4eba5ddcf, type: 3}
+  - {fileID: 21300000, guid: 912ce367afa627b48a237628107f7495, type: 3}
+  - {fileID: 21300000, guid: 6f3b356165e8c8b43b49e8cbc860ec39, type: 3}
+  - {fileID: 21300000, guid: 9dfea99af4842b44689b339bde9b2920, type: 3}
+  - {fileID: 21300000, guid: 858aeb0a157cea24f9da3886a8a7f49f, type: 3}
+  - {fileID: 21300000, guid: 67a726ef1bc40a84c8fec2464d580abe, type: 3}
+  - {fileID: 21300000, guid: 2317a3c1e321eea4f8c4380ecd19e8ee, type: 3}
+  - {fileID: 21300000, guid: 8a9fb5f749767d24f82cfb108ab5d84a, type: 3}
+  - {fileID: 21300000, guid: 2ec48d134e319f44ea51ba0779de8f58, type: 3}

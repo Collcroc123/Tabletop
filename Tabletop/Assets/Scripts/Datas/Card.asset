@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf9ad4bb42122bb4795ab20a4d9674db, type: 3}
-  m_Name: Player
+  m_Name: Card
   m_EditorClassIdentifier: 
   userName: "Cool Gamer 123\u200B"
   playerIcon: 3
