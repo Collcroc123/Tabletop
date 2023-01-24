@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color: 0
   number: 0
+  cardBack: 0
   data: {fileID: 11400000, guid: 70e15424c2e6f434c825842701c562db, type: 2}
   cardImage: {fileID: 7096446008045763053}
   shader: {fileID: 2100000, guid: bd79b4e526a656044ace1899987dce55, type: 2}

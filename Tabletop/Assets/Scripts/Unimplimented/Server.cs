@@ -5,7 +5,7 @@ public class Server : NetworkBehaviour
 {
     public Connector connector;
     private int cardColor, cardNumber;
-    private int drawSize = 108, discardSize = 0;
+    //private int drawSize = 108, discardSize = 0;
     public bool infiniteDeck, blanks;
     public Deck draw, discard;
     public GameObject card;

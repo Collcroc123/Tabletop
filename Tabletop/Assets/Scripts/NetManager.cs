@@ -21,8 +21,9 @@ public class NetManager : NetworkManager
     public TextMeshProUGUI errorMessage;
 
     public static NetManager instance;
-    void Awake()
+    public override void Awake()
     {
+        base.Awake();
         instance = this;
         //netMan = GameObject.Find("/NetworkManager").GetComponent<NetManager>();
         //gMan = GameObject.Find("/Table").GetComponent<GameManager>();
@@ -100,19 +101,19 @@ public class NetManager : NetworkManager
         playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
     }
     
-    public override void OnClientConnect(NetworkConnection conn)
+    public override void OnClientConnect()
     { // Called on CLIENTS when they join a server
-        base.OnClientConnect(conn);
+        //base.OnClientConnect(NetworkClient.connection);
         if (numPlayers >= maxConnections)
         {
-            conn.Disconnect();
+            NetworkClient.connection.Disconnect();
             Debug.Log("DISCONNECTED: SERVER FULL");
             return;
         }
 
         if (SceneManager.GetActiveScene().name != "OnlineScene")
         {
-            conn.Disconnect();
+            NetworkClient.connection.Disconnect();
             Debug.Log("DISCONNECTED: GAME IN PROGRESS");
             return;
         }

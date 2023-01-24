@@ -5,7 +5,7 @@ using UnityEngine;
 public class CardData : ScriptableObject
 {
     public Color[] colors;
-    public Sprite[] backgroundSprite;
-    public Sprite[] borderSprite;
+    public Sprite backSprite;
+    public Sprite colorSprite;
     public Sprite[] numberSprite;
 }

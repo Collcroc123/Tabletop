@@ -17,12 +17,8 @@ MonoBehaviour:
   - {r: 0.3019608, g: 0.39607847, b: 0.7058824, a: 1}
   - {r: 0.11764707, g: 0.7372549, b: 0.45098042, a: 1}
   - {r: 0.97647065, g: 0.7607844, b: 0.16862746, a: 1}
-  backgroundSprite:
-  - {fileID: 21300000, guid: 2548c6a4240ba8946bf21ea057616ec3, type: 3}
-  - {fileID: 21300000, guid: c5e42bfad0d31b84cb7ae226a7fdaf76, type: 3}
-  borderSprite:
-  - {fileID: 21300000, guid: 7714933352e58ac44ac09e03784499d2, type: 3}
-  - {fileID: 21300000, guid: e3e278fd775f8204a93f637ae9dba40a, type: 3}
+  backSprite: {fileID: 21300000, guid: d0e22dc4faf9f3146afcb1e142b3b7ff, type: 3}
+  colorSprite: {fileID: 21300000, guid: 2548c6a4240ba8946bf21ea057616ec3, type: 3}
   numberSprite:
   - {fileID: 21300000, guid: d34064607125d2f4ba9aadbb25e74d69, type: 3}
   - {fileID: 21300000, guid: 0813f6db54ebc0d4696c3648e5a78c58, type: 3}
