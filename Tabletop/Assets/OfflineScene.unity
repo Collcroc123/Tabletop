@@ -1034,12 +1034,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 2
-    m_Right: 2
+    m_Left: 33
+    m_Right: 33
     m_Top: 2
     m_Bottom: 2
   m_ChildAlignment: 3
-  m_Spacing: -35
+  m_Spacing: 65
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -1195,7 +1195,7 @@ GameObject:
   - component: {fileID: 624814212}
   - component: {fileID: 624814211}
   m_Layer: 5
-  m_Name: SHUFFLE Button
+  m_Name: CREATE Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1268,11 +1268,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2062399547}
         m_TargetAssemblyTypeName: Deck, Assembly-CSharp
-        m_MethodName: Shuffle
-        m_Mode: 2
+        m_MethodName: CreateDeck
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 2062399547}
-          m_ObjectArgumentAssemblyTypeName: Deck, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3014,7 +3014,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SHUFFLE
+  m_text: CREATE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ff0bd2be84ec414aa9f6638f6cd3d3d, type: 2}
   m_sharedMaterial: {fileID: -3792666021234236838, guid: 8ff0bd2be84ec414aa9f6638f6cd3d3d, type: 2}
@@ -3901,7 +3901,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073278448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children:

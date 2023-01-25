@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7096446008045763054}
+  - component: {fileID: 559303888295071566}
   - component: {fileID: 7096446008045763053}
   - component: {fileID: 746998317477253640}
   m_Layer: 0
@@ -18,8 +18,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7096446008045763054
-Transform:
+--- !u!224 &559303888295071566
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -27,12 +27,17 @@ Transform:
   m_GameObject: {fileID: 7096446008045763052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 100, y: 100, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.64, y: 0.96}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &7096446008045763053
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -53,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bd79b4e526a656044ace1899987dce55, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -102,4 +107,4 @@ MonoBehaviour:
   cardBack: 0
   data: {fileID: 11400000, guid: 70e15424c2e6f434c825842701c562db, type: 2}
   cardImage: {fileID: 7096446008045763053}
-  shader: {fileID: 2100000, guid: bd79b4e526a656044ace1899987dce55, type: 2}
+  cardShader: {fileID: 2100000, guid: bd79b4e526a656044ace1899987dce55, type: 2}

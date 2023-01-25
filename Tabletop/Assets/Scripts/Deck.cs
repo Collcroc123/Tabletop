@@ -9,11 +9,12 @@ public class Deck : MonoBehaviour
 
     private void Start()
     {
-        CreateDeck();
+        //CreateDeck();
     }
 
     public void CreateDeck()
     {
+        foreach (Transform child in hand.transform) Destroy(child.gameObject);
         int deckSize = 108; // How many cards in deck
         // Current Card | # of Current Card | Card Class
         int cardNumber = 0, cardNumCount = 0, cardColor = 0;
@@ -24,7 +25,6 @@ public class Deck : MonoBehaviour
             Card cardInfo = card.GetComponent<Card>();
             cardInfo.color = cardColor;   // Red = 0, Blue = 1, Green = 2, Yellow = 3, Black = 4
             cardInfo.number = cardNumber; // 0-9, 10 = +2, 11 = Reverse, 12 = Skip, Blacks (0 = Wild, 1 = +4)
-            //cardInfo.GetImage();
             //card.SetActive(false);
             deck.Add(card);
             Debug.Log("Color: " + cardColor + " Number: " + cardNumber);
@@ -58,16 +58,22 @@ public class Deck : MonoBehaviour
                 }
             }
         }
+        Shuffle(this);
     }
 
     public void Shuffle(Deck deckObj)
     {
-        for (int i = 0; i < deckObj.deck.Count; i++) 
+        Debug.Log("Shuffling Deck...");
+        for (int i = 0; i < deck.Count; i++) 
         {
             GameObject temp = deckObj.deck[i];
             int randomIndex = Random.Range(i, deckObj.deck.Count);
+            Debug.Log(deckObj.deck[randomIndex]);  //  FOR SOME REASON deck.[randomIndex] IS NULL AFTER 3RD RUN???
             deckObj.deck[i] = deckObj.deck[randomIndex];
+            deckObj.deck[i].transform.SetSiblingIndex(i);
             deckObj.deck[randomIndex] = temp;
+            //Debug.Log(deckObj.deck[randomIndex]);
+            deckObj.deck[randomIndex].transform.SetSiblingIndex(randomIndex);
         }
     }
 }
