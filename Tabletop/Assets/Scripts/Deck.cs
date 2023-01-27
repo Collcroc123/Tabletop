@@ -15,6 +15,7 @@ public class Deck : MonoBehaviour
     public void CreateDeck()
     {
         foreach (Transform child in hand.transform) Destroy(child.gameObject);
+        deck.Clear();
         int deckSize = 108; // How many cards in deck
         // Current Card | # of Current Card | Card Class
         int cardNumber = 0, cardNumCount = 0, cardColor = 0;
@@ -66,14 +67,12 @@ public class Deck : MonoBehaviour
         Debug.Log("Shuffling Deck...");
         for (int i = 0; i < deck.Count; i++) 
         {
-            GameObject temp = deckObj.deck[i];
-            int randomIndex = Random.Range(i, deckObj.deck.Count);
-            Debug.Log(deckObj.deck[randomIndex]);  //  FOR SOME REASON deck.[randomIndex] IS NULL AFTER 3RD RUN???
-            deckObj.deck[i] = deckObj.deck[randomIndex];
-            deckObj.deck[i].transform.SetSiblingIndex(i);
-            deckObj.deck[randomIndex] = temp;
-            //Debug.Log(deckObj.deck[randomIndex]);
-            deckObj.deck[randomIndex].transform.SetSiblingIndex(randomIndex);
+            GameObject temp = deckObj.deck[i]; // Saves current card
+            int randomIndex = Random.Range(i, deckObj.deck.Count); // Picks random card
+            deckObj.deck[i] = deckObj.deck[randomIndex]; // Replaces current card with random
+            deckObj.deck[i].transform.SetSiblingIndex(i); // Organizes card prefab
+            deckObj.deck[randomIndex] = temp; // Replaces random card with current
+            deckObj.deck[randomIndex].transform.SetSiblingIndex(randomIndex); // Organizes
         }
     }
 }
