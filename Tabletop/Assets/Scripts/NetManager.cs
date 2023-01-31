@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Mirror;
 using TMPro;
 
-public class NetManager : NetworkManager
+public class NetManager : NetworkRoomManager
 {
     [Header("UI")]
     public GameObject newsMenu;
@@ -74,7 +74,7 @@ public class NetManager : NetworkManager
     public void ConnectionEvent()
     {
         Debug.Log("CONNECTION EVENT");
-        playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
+        //playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
     }
 
     public void StartGame()
@@ -97,8 +97,8 @@ public class NetManager : NetworkManager
         base.OnServerSceneChanged("OnlineScene");
         Debug.Log("SERVER STARTED!");
         Debug.Log(numPlayers + " PLAYERS");
-        playerCountTxt = GameObject.Find("/Table/Menu/Blue Window/Player Count").GetComponent<TextMeshProUGUI>();
-        playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
+        //playerCountTxt = GameObject.Find("/Table/Menu/Blue Window/Player Count").GetComponent<TextMeshProUGUI>();
+        //playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
     }
     
     public override void OnClientConnect()

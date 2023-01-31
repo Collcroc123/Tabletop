@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/OfflineScene.unity
     guid: 0433f6ca8dd63ca4e9e9dcbd5abf3a6b
   - enabled: 1
+    path: Assets/RoomScene.unity
+    guid: 6c4595798c833964396c6fde366ff642
+  - enabled: 1
     path: Assets/OnlineScene.unity
     guid: d58176aca3b7f5c40aa44ff985d86fa2
-  - enabled: 0
-    path: Assets/Mirror/Examples/Basic/Scenes/Example.unity
-    guid: b30904751905d3f4dacde62ac85ec7c2
   m_configObjects: {}
