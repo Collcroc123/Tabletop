@@ -19,28 +19,23 @@ public class PlayerManager : NetworkBehaviour
         entry = Instantiate(entryPrefab, GameManager.instance.playerList.transform).GetComponent<PlayerEntry>();
         entry.SetInfo(userName, iconColor);
     }
-
+    /*
     public void StartGame()
     {
         handScreen.SetActive(true);
         waitScreen.SetActive(false);
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
+    }*/
 
     public override void OnStartServer()
-    {
-        Debug.Log("OnStartServer");
+    { // Called on the SERVER when a client joins
+        Debug.Log("A CLIENT HAS JOINED THE SERVER");
         base.OnStartServer();
         NetManager.instance.playerList.Add(this);
     }
 
     public override void OnStartClient()
-    {
-        Debug.Log("OnStartClient");
+    { // Called on the CLIENT when it joins a server
+        Debug.Log("JOINING SERVER");
         base.OnStartClient();
         if (isLocalPlayer)
         {
@@ -53,16 +48,16 @@ public class PlayerManager : NetworkBehaviour
     }
 
     public override void OnStopServer()
-    {
-        Debug.Log("OnStopServer");
+    { // Called on the SERVER when a client leaves
+        Debug.Log("A CLIENT HAS LEFT THE SERVER");
         base.OnStopServer();
         NetManager.instance.playerList.Remove(this);
         Destroy(entry.transform.gameObject);
     }
 
     public override void OnStopClient()
-    {
-        Debug.Log("OnStopClient");
+    { // Called on the CLIENT when it leaves a server
+        Debug.Log("LEAVING SERVER");
         base.OnStopClient();
     }
 }

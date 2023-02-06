@@ -11,10 +11,10 @@ public class GameManager : NetworkBehaviour
     {
         instance = this;
     }
-
+    /*
     public void StartGame()
     {
         NetManager.instance.StartGame();
         cardDeck.SetActive(true);
-    }
+    }*/
 }
