@@ -9,6 +9,11 @@ public class MenuManager : MonoBehaviour
     public GameObject hostMenu;
     public GameObject clientMenu;
 
+    [Header("UI")]
+    public GameObject newsMenu;
+    public GameObject settingsMenu;
+    private bool toggled;
+
     void Start()
     {
         if (Application.isEditor && hostMenu) 
@@ -21,5 +26,12 @@ public class MenuManager : MonoBehaviour
             if (!inverted) clientMenu.SetActive(enableOrDisable);
             else hostMenu.SetActive(enableOrDisable);
         }
+    }
+
+    public void ToggleSettings()
+    {
+        toggled = !toggled;
+        settingsMenu.SetActive(toggled);
+        newsMenu.SetActive(!toggled);
     }
 }

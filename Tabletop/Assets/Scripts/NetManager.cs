@@ -1,16 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using Mirror;
 using TMPro;
 
 public class NetManager : NetworkRoomManager
 {
-    [Header("UI")]
-    public GameObject newsMenu;
-    public GameObject settingsMenu;
-    private bool toggled;
     private TextMeshProUGUI playerCountTxt;
     public List<PlayerManager> playerList = new List<PlayerManager>();
 
@@ -45,18 +40,11 @@ public class NetManager : NetworkRoomManager
             StartClient();
         }
     }
-
-    public void ToggleSettings()
-    {
-        toggled = !toggled;
-        settingsMenu.SetActive(toggled);
-        newsMenu.SetActive(!toggled);
-    }
     
-    public void ConnectionEvent()
+    private void ConnectionEvent()
     {
-        Debug.Log("CONNECTION EVENT");
-        //playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
+        Debug.Log("CONNECTION: " + numPlayers + " PLAYERS");
+        if (playerCountTxt != null) playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
     }
     /*
     public void StartGame()
@@ -69,15 +57,15 @@ public class NetManager : NetworkRoomManager
     }*/
 
     #region Overrides
+    
     public override void OnServerSceneChanged(string sceneName)
     { // Called on the SERVER when it starts
         base.OnServerSceneChanged(sceneName);
         Debug.Log("SERVER STARTED!");
         if (sceneName == "RoomScene")
         {
-            Debug.Log(numPlayers + " PLAYERS");
             playerCountTxt = GameObject.Find("/Canvas/Menu/Blue Window/Player Count").GetComponent<TextMeshProUGUI>();
-            playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
+            ConnectionEvent();
         }
     }
     
@@ -98,18 +86,19 @@ public class NetManager : NetworkRoomManager
             return;
         }*/
     }
-
+    
     public override void OnServerConnect(NetworkConnectionToClient conn)
     { // Called on the SERVER when a client joins
         base.OnServerConnect(conn);
         //ConnectionEvent();
     }
-
+    
     public override void OnServerDisconnect(NetworkConnectionToClient conn)
     { // Called on the SERVER when a client leaves
         base.OnServerDisconnect(conn);
         ConnectionEvent();
     }
+    
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)
     { // Called on the SERVER when a player object loads
         base.OnServerAddPlayer(conn);

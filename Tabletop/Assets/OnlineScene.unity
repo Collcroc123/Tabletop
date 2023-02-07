@@ -635,6 +635,8 @@ MonoBehaviour:
   inverted: 0
   hostMenu: {fileID: 0}
   clientMenu: {fileID: 1687977159}
+  newsMenu: {fileID: 0}
+  settingsMenu: {fileID: 0}
 --- !u!1 &143150480
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +902,7 @@ GameObject:
   - component: {fileID: 234425102}
   - component: {fileID: 234425101}
   m_Layer: 5
-  m_Name: GAME!
+  m_Name: GAME
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: IN GAME WOOHO!
+  m_text: IN GAME!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8ff0bd2be84ec414aa9f6638f6cd3d3d, type: 2}
   m_sharedMaterial: {fileID: -3792666021234236838, guid: 8ff0bd2be84ec414aa9f6638f6cd3d3d, type: 2}

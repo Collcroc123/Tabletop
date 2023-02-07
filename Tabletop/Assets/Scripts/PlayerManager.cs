@@ -1,11 +1,8 @@
-using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
 
 public class PlayerManager : NetworkBehaviour
 {
-    //public GameObject waitScreen, handScreen;
-
     [SyncVar] public string userName;
     [SyncVar] public Color iconColor;
     public GameObject entryPrefab;
@@ -25,7 +22,7 @@ public class PlayerManager : NetworkBehaviour
         handScreen.SetActive(true);
         waitScreen.SetActive(false);
     }*/
-
+    
     public override void OnStartServer()
     { // Called on the SERVER when a client joins
         Debug.Log("A CLIENT HAS JOINED THE SERVER");
@@ -42,9 +39,7 @@ public class PlayerManager : NetworkBehaviour
             Camera.main.gameObject.transform.SetParent(transform);
             Camera.main.gameObject.transform.localPosition = new Vector3(0,0,-100f);
         }
-        userName = NetManager.instance.userName;
-        iconColor = NetManager.instance.iconColor;
-        CmdPlayerEntry(userName, iconColor);
+        CmdPlayerEntry(NetManager.instance.userName, NetManager.instance.iconColor);
     }
 
     public override void OnStopServer()
