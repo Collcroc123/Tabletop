@@ -56,7 +56,7 @@ public class NetManager : NetworkRoomManager
     public void ConnectionEvent()
     {
         Debug.Log("CONNECTION EVENT");
-        playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
+        //playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
     }
     /*
     public void StartGame()
@@ -71,11 +71,14 @@ public class NetManager : NetworkRoomManager
     #region Overrides
     public override void OnServerSceneChanged(string sceneName)
     { // Called on the SERVER when it starts
-        base.OnServerSceneChanged("RoomScene");
+        base.OnServerSceneChanged(sceneName);
         Debug.Log("SERVER STARTED!");
-        Debug.Log(numPlayers + " PLAYERS");
-        playerCountTxt = GameObject.Find("/Table/Menu/Blue Window/Player Count").GetComponent<TextMeshProUGUI>();
-        playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
+        if (sceneName == "RoomScene")
+        {
+            Debug.Log(numPlayers + " PLAYERS");
+            playerCountTxt = GameObject.Find("/Canvas/Menu/Blue Window/Player Count").GetComponent<TextMeshProUGUI>();
+            playerCountTxt.text = "Players: " + numPlayers + "/" + maxConnections;
+        }
     }
     
     public override void OnClientConnect()
@@ -87,13 +90,13 @@ public class NetManager : NetworkRoomManager
             Debug.Log("DISCONNECTED: SERVER FULL");
             return;
         }
-
+        /*
         if (SceneManager.GetActiveScene().name != "OnlineScene")
         {
             NetworkClient.connection.Disconnect();
             Debug.Log("DISCONNECTED: GAME IN PROGRESS");
             return;
-        }
+        }*/
     }
 
     public override void OnServerConnect(NetworkConnectionToClient conn)

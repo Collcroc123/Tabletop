@@ -4,7 +4,7 @@ using Mirror;
 
 public class PlayerManager : NetworkBehaviour
 {
-    public GameObject waitScreen, handScreen;
+    //public GameObject waitScreen, handScreen;
 
     [SyncVar] public string userName;
     [SyncVar] public Color iconColor;
