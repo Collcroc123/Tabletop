@@ -525,7 +525,6 @@ GameObject:
   - component: {fileID: 375175853}
   - component: {fileID: 375175855}
   - component: {fileID: 375175857}
-  - component: {fileID: 375175858}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -570,7 +569,7 @@ MonoBehaviour:
   transport: {fileID: 375175857}
   networkAddress: localhost
   maxConnections: 8
-  authenticator: {fileID: 375175858}
+  authenticator: {fileID: 0}
   playerPrefab: {fileID: 2000635128316004030, guid: 648d8ed2373675a48acadf9587dd0b2a, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 1
@@ -579,13 +578,14 @@ MonoBehaviour:
   timeInterpolationGui: 0
   showRoomGUI: 0
   minPlayers: 1
-  roomPlayerPrefab: {fileID: -5933711898347880654, guid: 61f3f29d098f34346957d18b13e0ddbc, type: 3}
+  roomPlayerPrefab: {fileID: 264208089647571215, guid: 949b33fc12ced5a4893c0d2a32929a09, type: 3}
   RoomScene: Assets/RoomScene.unity
   GameplayScene: Assets/OnlineScene.unity
   _allPlayersReady: 0
   roomSlots: []
   clientIndex: 0
   playerList: []
+  roomMenu: {fileID: 351488555930245544, guid: 7903db22432bdfa4c9b11f6d89097594, type: 3}
   roomCode: 
   userName: 
   iconColor: {r: 0, g: 0, b: 0, a: 0}
@@ -617,28 +617,6 @@ MonoBehaviour:
   debugLog: 0
   statisticsGUI: 0
   statisticsLog: 0
---- !u!114 &375175858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 375175850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28496b776660156428f00cf78289c1ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnServerAuthenticated:
-    m_PersistentCalls:
-      m_Calls: []
-  OnClientAuthenticated:
-    m_PersistentCalls:
-      m_Calls: []
-  serverUsername: 
-  serverPassword: 
-  username: 
-  password: 
 --- !u!1 &491734079
 GameObject:
   m_ObjectHideFlags: 0

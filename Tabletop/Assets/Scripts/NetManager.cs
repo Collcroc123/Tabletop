@@ -7,7 +7,8 @@ using TMPro;
 public class NetManager : NetworkRoomManager
 {
     private TextMeshProUGUI playerCountTxt;
-    public List<PlayerManager> playerList = new List<PlayerManager>();
+    public List<RoomPlayerManager> playerList = new List<RoomPlayerManager>();
+    public GameObject roomMenu;
 
     [Header("Client Settings")]
     public string roomCode;
@@ -64,6 +65,7 @@ public class NetManager : NetworkRoomManager
         Debug.Log("SERVER STARTED!");
         if (sceneName == "RoomScene")
         {
+            Instantiate(roomMenu);
             playerCountTxt = GameObject.Find("/Canvas/Menu/Blue Window/Player Count").GetComponent<TextMeshProUGUI>();
             ConnectionEvent();
         }
